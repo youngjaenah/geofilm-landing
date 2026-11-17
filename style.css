@@ -1,0 +1,51 @@
+:root {
+  --bg: #fbfbfa;
+  --fg: #1d1d1f;
+  --muted: #6e6e73;
+  --line: #e3e3e0;
+  --accent: #c2410c;
+  --card: #ffffff;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --fg: #f2f2f2;
+    --muted: #a1a1a6;
+    --line: #2c2c2e;
+    --accent: #fb923c;
+    --card: #1b1b1c;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Hiragino Sans",
+        "PingFang SC", "Segoe UI", sans-serif;
+}
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px;
+         max-width: 720px; margin: 0 auto; padding: 20px 16px 0; }
+header a.brand { font-weight: 700; color: var(--fg); text-decoration: none; letter-spacing: -0.01em; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 16px; font-size: 15px; }
+nav a:hover, nav a[aria-current="page"] { color: var(--fg); }
+.lang { display: flex; gap: 6px; margin: 8px 0 24px; }
+.lang button { font: inherit; font-size: 14px; padding: 4px 12px; border-radius: 999px;
+               border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+.lang button[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); }
+h1 { font-size: 34px; line-height: 1.2; letter-spacing: -0.02em; margin: 8px 0 12px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+h3 { font-size: 17px; margin: 24px 0 4px; }
+p, li { color: var(--fg); }
+.muted { color: var(--muted); }
+a { color: var(--accent); }
+.cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 28px 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+.card h2 { margin-top: 0; }
+ul { padding-left: 20px; }
+footer { max-width: 720px; margin: 0 auto; padding: 24px 16px 40px; color: var(--muted); font-size: 14px;
+         border-top: 1px solid var(--line); }
+[data-lang] { display: none; }
+html[data-show="ko"] [data-lang="ko"], html[data-show="en"] [data-lang="en"] { display: block; }
