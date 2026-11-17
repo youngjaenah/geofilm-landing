@@ -37,14 +37,16 @@
     <p>기본값인 XMP 사이드카와 사본 기록은 원본을 건드리지 않습니다. "원본에 기록"을 고를 때만 원본이 수정되며, 백업을 함께 만들 수 있습니다.</p>
     <h3>배터리를 덜 쓰려면</h3>
     <p>트래커 설정의 기록 방식에서 "절전"을 고르세요. 정지 중에는 기록 간격이 길어집니다.</p>
-    <h3>정해진 시각에 자동으로 기록하려면 (단축어)</h3>
-    <p>대부분은 트래커의 스케줄 탭에서 스케줄을 추가하는 것으로 충분합니다. 정각에 손대지 않고 시작해야 한다면 단축어 자동화를 쓰세요.</p>
+    <h3>스케줄은 어떻게 시작되나요?</h3>
+    <p>스케줄의 시작 시각에 알림이 오고, 알림을 눌러야 기록이 시작됩니다. “이동하면 자동으로 시작”을 켜면 구간 안에서 움직일 때 알아서 시작합니다.</p>
+    <h3>단축어로 자동 기록 시작하기</h3>
+    <p>단축어 앱에는 GeoFilm Tracker의 “기록 시작”과 “기록 종료” 동작이 이미 등록되어 있습니다. 단축어를 새로 만들 필요 없이, 시간 자동화에 연결하기만 하면 알림을 누르지 않아도 정각에 바로 시작합니다.</p>
     <ol>
-      <li>단축어 앱 ▸ 아래쪽 <b>자동화</b> 탭 ▸ <b>+</b> ▸ <b>특정 시간</b>에서 시작 시각과 반복할 요일을 정하고 <b>즉시 실행</b>을 고릅니다.</li>
-      <li><b>새로운 빈 자동화</b> ▸ <b>동작 추가</b>에서 “GeoFilm”을 검색해 <b>기록 시작</b>을 고릅니다.</li>
-      <li>회색 <b>종료 시각</b> 칸을 누르고 “오후 10:30”처럼 직접 입력한 뒤 ✓를 누릅니다. 시간 선택기 대신 키보드가 뜨는 것이 정상입니다. 비워 두면 직접 끌 때까지 기록합니다.</li>
+      <li>단축어 앱에서 <b>편집</b> ▸ <b>자동화</b> ▸ <b>특정 시간</b>에서 시작 시각을 설정합니다.</li>
+      <li>실행할 동작으로 <b>GeoFilm Tracker</b> ▸ <b>기록 시작</b>을 추가합니다.</li>
+      <li>필요하면 동작의 <b>종료 시각</b>을 입력합니다. (설정하지 않아도 자동 종료 시간에 종료됩니다.) 시각은 “오후 10:30”처럼 키보드로 입력합니다.</li>
     </ol>
-    <p>트래커가 제공하는 “기록 시작·기록 종료”는 단축어 앱의 “모든 단축어”가 아니라, 단축어 탭 아래쪽 앱 목록의 <b>GeoFilm Tracker</b>에 있습니다. 트래커의 스케줄 탭 맨 아래 버튼으로도 바로 열 수 있습니다.</p>
+    <p>“기록 시작·기록 종료”는 단축어 앱의 “모든 단축어”가 아니라 앱 목록의 <b>GeoFilm Tracker</b>에 있습니다. 트래커 스케줄 탭 맨 아래 버튼으로도 바로 열 수 있습니다.</p>
     <h3>버튼 하나로 기록을 켜고 끄려면</h3>
     <ul>
       <li><b>동작 버튼</b>: 설정 ▸ 동작 버튼 ▸ <b>제어</b> ▸ GeoFilm Tracker의 기록 버튼.</li>
@@ -73,14 +75,16 @@
     <p>The default XMP sidecar and the copy option leave originals untouched. Only "Write to Original" changes the file, and it can keep a backup.</p>
     <h3>Using less battery</h3>
     <p>Choose "Battery Saver" under Recording Mode in the Tracker's Settings. It records less often while you're standing still.</p>
-    <h3>Recording automatically at a set time (Shortcuts)</h3>
-    <p>For most people, adding a schedule in the Tracker's Schedule tab is enough. If recording must start exactly on time without touching the phone, use a Shortcuts automation.</p>
+    <h3>How does a schedule start?</h3>
+    <p>At a schedule's start time you get a notification; recording starts when you tap it. With “Start Automatically When Moving” on, it starts by itself once you move during the window.</p>
+    <h3>Start recording automatically with Shortcuts</h3>
+    <p>GeoFilm Tracker's “Start Recording” and “Stop Recording” actions are already in the Shortcuts app. You don't need to build a shortcut — connect one to a time-of-day automation and recording starts right on time, without tapping a notification.</p>
     <ol>
-      <li>In the Shortcuts app, open the <b>Automation</b> tab ▸ <b>+</b> ▸ <b>Time of Day</b>, set the start time and the days, and choose <b>Run Immediately</b>.</li>
-      <li>Tap <b>New Blank Automation</b> ▸ <b>Add Action</b>, search for “GeoFilm” and choose <b>Start Recording</b>.</li>
-      <li>Tap the gray <b>End Time</b> field, type a time such as “10:30 PM”, then tap ✓. A keyboard appears instead of a time picker — that's expected. Leave it empty to record until you stop.</li>
+      <li>In the Shortcuts app, go to <b>Edit</b> ▸ <b>Automation</b> ▸ <b>Time of Day</b> and set the start time.</li>
+      <li>As the action to run, add <b>GeoFilm Tracker</b> ▸ <b>Start Recording</b>.</li>
+      <li>If needed, enter the action's <b>End Time</b>. (Even without it, recording ends at the auto-stop time.) Type the time with the keyboard, such as “10:30 PM”.</li>
     </ol>
-    <p>The Tracker's ready-made “Start Recording” and “Stop Recording” are not in “All Shortcuts”; they're under <b>GeoFilm Tracker</b> in the app list at the bottom of the Shortcuts tab. The button at the bottom of the Tracker's Schedule tab opens it directly.</p>
+    <p>“Start Recording” and “Stop Recording” are not in “All Shortcuts”; they're under <b>GeoFilm Tracker</b> in the app list. The button at the bottom of the Tracker's Schedule tab opens it directly.</p>
     <h3>Turning recording on and off with one button</h3>
     <ul>
       <li><b>Action button</b>: Settings ▸ Action Button ▸ <b>Controls</b> ▸ GeoFilm Tracker's record control.</li>
