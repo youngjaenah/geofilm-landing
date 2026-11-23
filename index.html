@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/style.css">
 <script src="/lang.js"></script>
 </head>
-<body>
+<body class="home">
 <header>
   <a class="brand" href="/">GeoFilm</a>
   <nav><a href="/support/">Support</a><a href="/privacy/">Privacy</a></nav>
@@ -18,60 +18,280 @@
 <main>
   <div class="lang"><button data-set="ko">한국어</button><button data-set="en">English</button></div>
 
+  <!-- ─────────────────────────────── 한국어 ─────────────────────────────── -->
   <section data-lang="ko">
-    <h1>모든 카메라 사진에 촬영 위치를</h1>
-    <p class="muted">GPS가 없는 카메라로 찍은 사진도, 촬영하는 동안 기록한 경로와 촬영 시각을 맞춰 위치를 넣습니다. 필름 스캔, 미러리스, 오래된 디지털 카메라 모두 됩니다.</p>
-    <div class="cards">
-      <div class="card">
-        <h2>GeoFilm Tracker</h2>
-        <p class="muted">iPhone · 무료 다운로드, 무제한 기록 1회 구매</p>
-        <ul>
-          <li>한 번 눌러 기록, 잠금 화면에서 확인</li>
-          <li>스케줄과 이동 감지로 자동 시작</li>
-          <li>시각 보정 화면으로 카메라 시계 오차 제안</li>
-          <li>기록이 끝나면 iCloud로 Mac에 자동 전달</li>
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Mac + iPhone</p>
+        <h1>모든 카메라 사진에<br>촬영 위치를</h1>
+        <p class="lead">GPS가 없는 카메라로 찍은 사진도, 촬영하는 동안 아이폰으로 기록한 경로와 촬영 시각을 맞춰 위치를 넣습니다. 필름 스캔, 미러리스, 오래된 디지털 카메라 모두 됩니다.</p>
+        <ul class="pills">
+          <li>Mac 앱 무료</li>
+          <li>iPhone 무료 다운로드</li>
+          <li>계정 없음</li>
+          <li>구독·광고 없음</li>
         </ul>
       </div>
-      <div class="card">
-        <h2>GeoFilm</h2>
-        <p class="muted">Mac · 무료</p>
-        <ul>
-          <li>촬영 시각으로 위치를 자동 매칭</li>
-          <li>카메라별 시계 오프셋, 시간대 보정</li>
-          <li>XMP 사이드카·사본·원본(백업) 중 골라 기록</li>
-          <li>지도에서 확인하고 직접 고치기</li>
-        </ul>
+      <img src="/apple-touch-icon.png" alt="GeoFilm 앱 아이콘">
+    </div>
+
+    <div class="block">
+      <h2>이렇게 동작합니다</h2>
+      <p class="intro">아이폰은 경로를, 카메라는 사진을. 둘의 시각을 맞추면 사진마다 찍은 자리가 나옵니다.</p>
+      <div class="steps">
+        <div class="step">
+          <h3>아이폰으로 경로 기록</h3>
+          <p>촬영을 시작할 때 GeoFilm Tracker에서 한 번 누르고, 휴대폰은 주머니에 넣어 둡니다.</p>
+        </div>
+        <div class="step">
+          <h3>iCloud로 Mac에 도착</h3>
+          <p>기록을 끝내면 경로가 본인의 iCloud Drive를 거쳐 Mac의 GeoFilm에 나타납니다. 파일을 옮길 필요가 없습니다.</p>
+        </div>
+        <div class="step">
+          <h3>사진에 위치 기록</h3>
+          <p>사진을 불러오면 촬영 시각으로 위치를 찾습니다. 지도에서 확인한 뒤 사진이나 XMP 사이드카에 기록합니다.</p>
+        </div>
       </div>
     </div>
-    <p>계정이 없습니다. 사진과 경로는 기기와 본인의 iCloud에만 있고, 개발자에게 보내지 않습니다.</p>
+
+    <div class="block">
+      <h2>GeoFilm Tracker <span class="platform">iPhone</span></h2>
+      <p class="intro">사진가를 위한 GPS 로거. App Store에서는 “GeoFilm: GPS 경로 기록”이라는 이름입니다.</p>
+      <div class="features">
+        <div class="feature"><h3>한 번 눌러 기록</h3><p>화면을 잠가도 기록은 이어집니다. 잠금 화면과 Dynamic Island에서 경과 시간을 보고 바로 끝낼 수 있습니다.</p></div>
+        <div class="feature"><h3>버튼 하나로 켜고 끄기</h3><p>홈 화면·잠금 화면 위젯, 제어 센터, 동작 버튼, Siri와 단축어를 지원합니다.</p></div>
+        <div class="feature"><h3>스케줄과 자동 시작</h3><p>정해 둔 시각에 알림으로 시작하거나, 구간 안에서 움직이면 저절로 시작합니다. 자동 종료 시각을 정하면 끄는 것을 잊어도 저장됩니다.</p></div>
+        <div class="feature"><h3>시각 보정 화면</h3><p>네트워크 시간에 맞춘 시각과 QR 코드를 띄웁니다. 카메라로 한 장 찍어 두면 Mac 앱이 카메라 시계 오차를 제안합니다.</p></div>
+        <div class="feature"><h3>정직한 기록</h3><p>신호가 끊긴 구간은 직선으로 잇지 않고 끊어 둡니다. 기록되지 않는데 기록 중이라고 표시하지 않습니다.</p></div>
+        <div class="feature"><h3>트랙 보기와 내보내기</h3><p>지도에서 경로를 보고 고도·속도 그래프로 살펴봅니다. GPX로 내보내 다른 앱에서도 쓸 수 있습니다.</p></div>
+      </div>
+    </div>
+
+    <div class="block" id="location-permission">
+      <h2>위치 권한: “앱을 사용하는 동안”과 “항상”</h2>
+      <p class="intro">대부분은 “앱을 사용하는 동안”으로 충분합니다. 이 권한으로도 화면을 잠그면 기록이 계속됩니다. “항상”은 아이폰이 잠긴 채로 기록을 시작하거나, 움직일 때 저절로 시작하게 하고 싶을 때만 고르세요.</p>
+      <div class="table-wrap">
+        <table>
+          <colgroup><col class="feat"><col><col></colgroup>
+          <thead>
+            <tr><th scope="col">기능</th><th scope="col">앱을 사용하는 동안</th><th scope="col">항상</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">앱에서 눌러 기록 시작</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">화면을 잠근 뒤에도 기록 계속</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">잠금 화면·Dynamic Island에서 종료</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">자동 종료 시각에 저장</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">스케줄 알림에서 “기록 시작”</th><td><span class="yes">✓</span><small>앱이 열리며 시작</small></td><td><span class="yes">✓</span><small>앱이 열리며 시작</small></td></tr>
+            <tr><th scope="row">제어 센터·동작 버튼·단축어로 시작<small>아이폰 잠금을 푼 상태</small></th><td><span class="yes">✓</span><small>앱이 앞으로 열리며 시작 (iOS 26 이상)</small></td><td><span class="yes">✓</span><small>앱을 열지 않고 시작</small></td></tr>
+            <tr><th scope="row">제어 센터·동작 버튼·단축어로 시작<small>아이폰이 잠긴 상태</small></th><td><span class="no">-</span><small>잠금을 풀어야 시작</small></td><td><span class="yes">✓</span><small>잠금을 풀지 않고 시작</small></td></tr>
+            <tr><th scope="row">스케줄 구간 안에서 움직이면 자동 시작</th><td class="c"><span class="no">-</span></td><td><span class="yes">✓</span><small>스케줄에서 “이동하면 자동으로 시작”을 켠 경우</small></td></tr>
+            <tr><th scope="row">기록 중이 아닐 때 위치 사용</th><td>사용하지 않음</td><td>자동 시작을 켠 경우, 이동 감지에만 아이폰 안에서 사용<small>저장하거나 보내지 않습니다</small></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">iOS 18~25에서 “앱을 사용하는 동안”이면, 제어 센터나 단축어로는 앱이 화면에 떠 있을 때만 시작됩니다.</p>
+      <div class="callout">
+        <p><b>권한 바꾸는 곳</b>: 설정 ▸ 앱 ▸ GeoFilm Tracker ▸ 위치. 트래커의 스케줄 탭에서도 “항상”으로 올릴 수 있습니다.</p>
+        <p>어느 쪽이든 위치는 기록하는 동안에만 저장하고, 트랙은 이 아이폰과 본인의 iCloud에만 둡니다.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>기록 방식</h2>
+      <p class="intro">배터리와 촘촘함 사이에서 고릅니다. 기본값은 “균형”이고, 설정에서 바꿀 수 있습니다.</p>
+      <div class="table-wrap">
+        <table class="modes">
+          <thead>
+            <tr><th scope="col">방식</th><th scope="col">어울리는 촬영</th><th scope="col">움직일 때</th><th scope="col">멈춰 있을 때</th><th scope="col">저장하지 않는 위치</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">정밀</th><td>도보 촬영, 짧은 출사</td><td>5 m 또는 5초마다</td><td>15초마다</td><td>오차 50 m 초과</td></tr>
+            <tr><th scope="row">균형</th><td>하루 촬영 (기본값)</td><td>10 m 또는 10초마다</td><td>30초마다</td><td>오차 100 m 초과</td></tr>
+            <tr><th scope="row">절전</th><td>여러 날, 차량 이동</td><td>50 m 또는 30초마다</td><td>60초마다</td><td>오차 500 m 초과</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">오차가 큰 위치(터널 안의 기지국 추정 등)는 저장하지 않습니다. 틀린 위치가 사진에 들어가는 것보다 비어 있는 편이 낫기 때문입니다.</p>
+    </div>
+
+    <div class="block">
+      <h2>GeoFilm <span class="platform">Mac</span></h2>
+      <p class="intro">촬영 시각으로 사진마다 위치를 찾고, 지도에서 확인한 뒤 기록합니다.</p>
+      <div class="features">
+        <div class="feature"><h3>시각으로 찾는 위치</h3><p>사진의 촬영 시각과 GPS 경로를 맞춰 자동으로 위치를 찾습니다. 아이폰 트랙은 물론 다른 기기의 GPX 파일도 됩니다.</p></div>
+        <div class="feature"><h3>카메라 시계 보정</h3><p>몇 초, 몇 분 어긋난 시계를 카메라마다 따로 바로잡고, 여행지 시간대도 고릅니다. 시계가 찍힌 사진 한 장으로 오차를 계산합니다.</p></div>
+        <div class="feature"><h3>지도에서 확인하고 고치기</h3><p>경로를 따라가며 시각별 위치를 점검하고, 경로 밖 사진은 지도를 눌러 직접 정합니다. 모든 편집은 실행 취소할 수 있습니다.</p></div>
+        <div class="feature"><h3>원본을 지키는 기록</h3><p>XMP 사이드카, 사본, 원본(백업 포함) 중에서 고릅니다. JPEG·HEIC를 지원하고, RAW는 XMP 사이드카로 기록합니다.</p></div>
+        <div class="feature"><h3>고도와 지명</h3><p>경로의 고도를 쓰거나, 없으면 Copernicus DEM 지형 고도로 채웁니다. 도시·국가 이름도 함께 넣을 수 있습니다.</p></div>
+        <div class="feature"><h3>Google Earth로 내보내기</h3><p>위치가 들어간 사진과 경로를 KMZ로 내보냅니다. 지도는 Apple 지도와, 한국 지역을 더 자세히 보여 주는 V-World 중에서 고릅니다.</p></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>가격</h2>
+      <div class="price">
+        <div class="card">
+          <h3>GeoFilm</h3>
+          <p class="big">무료</p>
+          <p class="muted">Mac</p>
+          <ul><li>모든 기능을 제한 없이</li></ul>
+        </div>
+        <div class="card">
+          <h3>GeoFilm Tracker</h3>
+          <p class="big">무료 다운로드</p>
+          <p class="muted">iPhone · 무제한 기록은 1회 구매</p>
+          <ul>
+            <li>트랙 10개까지 무료로 기록</li>
+            <li>한 번 구매하면 개수 제한 없이. 구독·광고 없음</li>
+            <li>무료 트랙을 다 써도 기존 트랙 보기·내보내기·동기화와 시각 보정 화면은 계속</li>
+            <li>재설치하거나 아이폰을 바꿔도 “구매 복원”으로 다시 결제하지 않음</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="closing">
+      <h2>개인정보</h2>
+      <p>계정이 없습니다. 사진과 경로는 기기와 본인의 iCloud에만 있고, 개발자에게 보내지 않습니다. 분석·광고·추적 도구도 없습니다. 자세한 내용은 <a href="/privacy/">개인정보 처리방침</a>, 사용 방법은 <a href="/support/">지원</a> 페이지를 보세요.</p>
+    </div>
   </section>
 
+  <!-- ─────────────────────────────── English ─────────────────────────────── -->
   <section data-lang="en">
-    <h1>Geotag photos from any camera</h1>
-    <p class="muted">Even cameras without GPS: GeoFilm lines up each photo's capture time with the route you recorded while shooting. Film scans, mirrorless and older digital cameras all work.</p>
-    <div class="cards">
-      <div class="card">
-        <h2>GeoFilm Tracker</h2>
-        <p class="muted">iPhone · Free download, one-time unlock for unlimited recording</p>
-        <ul>
-          <li>One tap to record, visible on the Lock Screen</li>
-          <li>Starts by schedule or when you start moving</li>
-          <li>Time-correction screen suggests your camera's clock offset</li>
-          <li>Finished routes reach your Mac through iCloud</li>
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Mac + iPhone</p>
+        <h1>Geotag photos<br>from any camera</h1>
+        <p class="lead">Even cameras without GPS: GeoFilm lines up each photo's capture time with the route your iPhone recorded while you were shooting. Film scans, mirrorless and older digital cameras all work.</p>
+        <ul class="pills">
+          <li>Mac app free</li>
+          <li>iPhone free download</li>
+          <li>No account</li>
+          <li>No subscription, no ads</li>
         </ul>
       </div>
-      <div class="card">
-        <h2>GeoFilm</h2>
-        <p class="muted">Mac · Free</p>
-        <ul>
-          <li>Matches locations by capture time</li>
-          <li>Per-camera clock offset and time zone</li>
-          <li>Writes to an XMP sidecar, a copy, or the original (with backup)</li>
-          <li>Check and fix on the map</li>
-        </ul>
+      <img src="/apple-touch-icon.png" alt="GeoFilm app icon">
+    </div>
+
+    <div class="block">
+      <h2>How it works</h2>
+      <p class="intro">Your iPhone keeps the route, your camera takes the photos. Match their times and every photo gets the place it was taken.</p>
+      <div class="steps">
+        <div class="step">
+          <h3>Record the route on iPhone</h3>
+          <p>Tap once in GeoFilm Tracker when you start shooting, then put the phone in your pocket.</p>
+        </div>
+        <div class="step">
+          <h3>It reaches your Mac via iCloud</h3>
+          <p>When you finish, the route travels through your own iCloud Drive and appears in GeoFilm on your Mac. No files to move.</p>
+        </div>
+        <div class="step">
+          <h3>Write locations into photos</h3>
+          <p>Import your photos and GeoFilm finds each location by capture time. Check them on the map, then write to the photo or an XMP sidecar.</p>
+        </div>
       </div>
     </div>
-    <p>No account. Photos and routes stay on your devices and in your own iCloud - nothing is sent to the developer.</p>
+
+    <div class="block">
+      <h2>GeoFilm Tracker <span class="platform">iPhone</span></h2>
+      <p class="intro">A GPS logger for photographers, listed on the App Store as “GeoFilm: GPS Logger”.</p>
+      <div class="features">
+        <div class="feature"><h3>One tap to record</h3><p>Recording continues with the screen locked. See the elapsed time on the Lock Screen and in the Dynamic Island, and stop right there.</p></div>
+        <div class="feature"><h3>One button on or off</h3><p>Home Screen and Lock Screen widgets, Control Center, the Action button, Siri and Shortcuts.</p></div>
+        <div class="feature"><h3>Schedules and auto-start</h3><p>Start with a notification at a set time, or automatically when you start moving within the window. An auto-stop time saves a recording you forgot to stop.</p></div>
+        <div class="feature"><h3>Time-correction screen</h3><p>Shows network-synced time and a QR code. Take one photo of it with your camera and the Mac app suggests the camera's clock offset.</p></div>
+        <div class="feature"><h3>Honest tracks</h3><p>Gaps in the signal stay gaps, never joined with a straight line. The app never says it is recording when it isn't.</p></div>
+        <div class="feature"><h3>View and export</h3><p>See each route on the map with elevation and speed charts. Export GPX for use in other apps.</p></div>
+      </div>
+    </div>
+
+    <div class="block" id="location-permission-en">
+      <h2>Location access: “While Using the App” vs “Always”</h2>
+      <p class="intro">“While Using the App” is enough for most people, and recording still continues with the screen locked. Choose “Always” only if you want to start a recording while the iPhone is locked, or have it start by itself when you start moving.</p>
+      <div class="table-wrap">
+        <table>
+          <colgroup><col class="feat"><col><col></colgroup>
+          <thead>
+            <tr><th scope="col">Feature</th><th scope="col">While Using the App</th><th scope="col">Always</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Start recording in the app</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">Keep recording with the screen locked</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">Stop from the Lock Screen or Dynamic Island</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">Save at the auto-stop time</th><td class="c"><span class="yes">✓</span></td><td class="c"><span class="yes">✓</span></td></tr>
+            <tr><th scope="row">“Start Recording” from a schedule notification</th><td><span class="yes">✓</span><small>Opens the app and starts</small></td><td><span class="yes">✓</span><small>Opens the app and starts</small></td></tr>
+            <tr><th scope="row">Start from Control Center, the Action button or Shortcuts<small>iPhone unlocked</small></th><td><span class="yes">✓</span><small>Brings the app forward and starts (iOS 26 or later)</small></td><td><span class="yes">✓</span><small>Starts without opening the app</small></td></tr>
+            <tr><th scope="row">Start from Control Center, the Action button or Shortcuts<small>iPhone locked</small></th><td><span class="no">-</span><small>Unlock first</small></td><td><span class="yes">✓</span><small>Starts without unlocking</small></td></tr>
+            <tr><th scope="row">Start automatically when moving within a schedule</th><td class="c"><span class="no">-</span></td><td><span class="yes">✓</span><small>With “Start automatically when moving” on</small></td></tr>
+            <tr><th scope="row">Location use when not recording</th><td>None</td><td>Only with auto-start on, on the iPhone, to notice movement<small>Never saved or sent</small></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">On iOS 18 to 25 with “While Using the App”, Control Center and Shortcuts can start a recording only while the app is on screen.</p>
+      <div class="callout">
+        <p><b>Where to change it</b>: Settings ▸ Apps ▸ GeoFilm Tracker ▸ Location. You can also upgrade to “Always” from the tracker's Schedule tab.</p>
+        <p>Either way, location is saved only while recording, and tracks stay on your iPhone and in your own iCloud.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Recording modes</h2>
+      <p class="intro">Choose between battery and detail. The default is Balanced; change it in Settings.</p>
+      <div class="table-wrap">
+        <table class="modes">
+          <thead>
+            <tr><th scope="col">Mode</th><th scope="col">Best for</th><th scope="col">While moving</th><th scope="col">While still</th><th scope="col">Not saved</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Precise</th><td>Photo walks, short outings</td><td>Every 5 m or 5 s</td><td>Every 15 s</td><td>Error over 50 m</td></tr>
+            <tr><th scope="row">Balanced</th><td>A day of shooting (default)</td><td>Every 10 m or 10 s</td><td>Every 30 s</td><td>Error over 100 m</td></tr>
+            <tr><th scope="row">Battery Saver</th><td>Several days, travel by car</td><td>Every 50 m or 30 s</td><td>Every 60 s</td><td>Error over 500 m</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Positions with a large error (such as cell-tower estimates inside a tunnel) are not saved. A gap is better than a wrong location in your photos.</p>
+    </div>
+
+    <div class="block">
+      <h2>GeoFilm <span class="platform">Mac</span></h2>
+      <p class="intro">Finds each photo's location by capture time, lets you check it on the map, then writes it.</p>
+      <div class="features">
+        <div class="feature"><h3>Location by time</h3><p>Matches each photo's capture time to a GPS route. Tracks from the iPhone app, or GPX files from any other device.</p></div>
+        <div class="feature"><h3>Camera clock correction</h3><p>Fix a clock that is seconds or minutes off, per camera, and pick the trip's time zone. One photo of a clock is enough to work out the offset.</p></div>
+        <div class="feature"><h3>Check and fix on the map</h3><p>Follow the route to check positions by time, and place photos outside the route with a click. Every edit can be undone.</p></div>
+        <div class="feature"><h3>Originals stay safe</h3><p>Write to an XMP sidecar, a copy, or the original (with backup). JPEG and HEIC supported; RAW gets an XMP sidecar.</p></div>
+        <div class="feature"><h3>Altitude and place names</h3><p>Uses the route's altitude, or fills it from Copernicus DEM terrain. City and country names can be added too.</p></div>
+        <div class="feature"><h3>Export to Google Earth</h3><p>Export geotagged photos and routes as KMZ. Choose Apple Maps, or V-World for more detail in Korea.</p></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Pricing</h2>
+      <div class="price">
+        <div class="card">
+          <h3>GeoFilm</h3>
+          <p class="big">Free</p>
+          <p class="muted">Mac</p>
+          <ul><li>Every feature, no limits</li></ul>
+        </div>
+        <div class="card">
+          <h3>GeoFilm Tracker</h3>
+          <p class="big">Free download</p>
+          <p class="muted">iPhone · one-time purchase for unlimited recording</p>
+          <ul>
+            <li>Record up to 10 tracks for free</li>
+            <li>One purchase removes the limit. No subscription, no ads</li>
+            <li>After the free tracks, viewing, exporting and syncing existing tracks and the time-correction screen keep working</li>
+            <li>Reinstalled or on a new iPhone? “Restore Purchases”, no second payment</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="closing">
+      <h2>Privacy</h2>
+      <p>No account. Photos and routes stay on your devices and in your own iCloud, and nothing is sent to the developer. No analytics, ads or tracking. See the <a href="/privacy/">privacy policy</a> for details and <a href="/support/">Support</a> for how-tos.</p>
+    </div>
   </section>
 </main>
 <footer>© YJ Lab · <a href="mailto:support@yjlab.io">support@yjlab.io</a></footer>
